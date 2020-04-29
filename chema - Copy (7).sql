@@ -1,0 +1,25 @@
+CREATE TABLE precincts_boroughs(
+   precinct_id SMALLINT PRIMARY KEY,
+   borough varchar);
+   
+Create table NYC_Restaurant_Inspection(
+DBM_NUM integer PRIMARY KEY,
+DBA VARCHAR,
+BORO VARCHAR,
+BUILDING VARCHAR,
+STREET VARCHAR,
+ZIPCODE int,
+PHONE VARCHAR,
+CUISINE_DESCRIPTION VARCHAR,
+INSPECTION_DATE date,
+ACTN VARCHAR,
+RECORD_DATE date,
+INSPECTION_TYPE VARCHAR,
+VIOLATION_CODE VARCHAR,
+VIOLATION_DESCRIPTION text,
+INSPECTION_DATETIME date,
+INSPECTION_YEAR integer);
+
+Drop Table NYC_Restaurant_Inspection;
+
+Select * From NYC_Restaurant_Inspection;
